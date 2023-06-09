@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+body {
+  background: #1b2c37;
+  width: 100vw;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fira sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 50px;
+  flex: 1;
+  display: flex;
+  color: #e1d9c9;
+}
+.logo h3 {
+  margin-top: 1rem;
+}
+.femidaimg {
+  width: 60px;
+  height: 60px;
+}
+
+.topnav {
+  text-align: right;
+
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  color: #ffffff;
+  text-decoration: none !important;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+
+.connection-ico {
+  width: 2rem;
+}
+.conn-logo {
+  padding-top: 15px;
+}
+
+.container-with-photo {
+  display: flex;
+}
+
+.name-content {
+  background: #4d7f65;
+  flex: 1;
+  color: #e1d9c9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+.name-content h1 {
+  color: #ffffff;
+}
+
+h4 {
+  color: #e1d9c9;
+}
+
+.name-text {
+  margin-top: 30%;
+}
+
+.name-tel {
+  margin: 10% 10% 10% 20%;
+}
+
+.tel {
+  margin-top: 1.5%;
+  margin-left: 5%;
+}
+
+.name-text h1,
+h4 {
+  font-weight: 300;
+}
+
+.name-tel {
+  display: flex;
+}
+
+.arrow-box {
+  background: #e9ddcd;
+  color: black;
+  width: 15rem;
+  padding: 0.5rem;
+}
+
+.photo-content {
+  flex: 1;
+}
+
+.main-photo {
+  width: 100%;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  color: #e1d9c9;
+  margin: 2rem;
+}
+
+.services-first-block {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.services-second-block {
+  display: flex;
+  align-items: center;
+}
+
+.ser-sec-bl-one,
+.ser-sec-bl-two,
+.ser-sec-bl-three {
+  flex: 1;
+}
+
+.services-group-icons {
+  width: 50px;
+}
+
+.about-me {
+  display: flex;
+  margin: 5rem 5rem 0 5rem;
+}
+
+.about-photo-container {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.about-photo {
+  border: 10px #e1d9c9 solid;
+  width: 80%;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.text {
+  margin-top: 2rem;
+}
+
+.text p {
+  color: #e1d9c9;
+}
+.about-numbers-container {
+  display: flex;
+}
+.numbers {
+  flex: 1;
+  margin: 0 5rem 0 5rem;
+}
+
+hr {
+  width: 40px;
+  margin: 1rem 0 1 rem 0;
+  border: 1px solid #4d7f65;
+}
+.numbers h4 {
+  margin-top: 1rem;
+}
+
+.numbers h1 {
+  margin-bottom: 1rem;
+}
+
+.appeal-container {
+  display: flex;
+  background: #4d7f65;
+  text-align: center;
+}
+.appeal-photo {
+  flex: 1;
+}
+.appeal-text-block {
+  flex: 1;
+}
+.appeal-text-first {
+  margin: 2rem 3rem 1rem 3rem;
+}
+.apperal-text-second {
+  margin: 1rem 3rem 1rem 3rem;
+}
+.appeal-img {
+  width: 100%;
+}
+.recommendations-first-block {
+  text-align: center;
+  margin: 1rem 3rem 1rem 3rem;
+}
+.recommendations-second-block {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.recomendation-one,
+.recomendation-two {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 280px;
+  box-shadow: 0 0 10px rgba(112, 112, 112, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+  background: #4d7f65;
+  padding-bottom: 1rem;
+}
+
+.recomendation-one h4,
+.recomendation-two h4 {
+  margin-bottom: 1rem;
+}
+.recomendation-one:hover,
+.recomendation-two:hover {
+  box-shadow: 0 0 35px rgba(125, 125, 125, 0.5);
+}
+.recom-images-thumbnail {
+  width: 40%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .container-with-photo,
+  .services-second-block,
+  .about-me,
+  .about-numbers-container,
+  .appeal-container,
+  .recommendations-second-block {
+    flex-direction: column;
+  }
+  .arrow-box {
+    width: 10rem;
+  }
+  .name-content {
+    padding-bottom: 5rem;
+  }
+  .logo {
+    padding-left: 10px;
+  }
+  .ser-sec-bl-one,
+  .ser-sec-bl-two,
+  .ser-sec-bl-three {
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+  }
+  .about-me,
+  .appeal-container {
+    text-align: center;
+  }
+
+  .numbers {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  hr {
+    margin-left: 35%;
+    width: 100px;
+  }
+  .apperal-text-second p {
+    text-align: center;
+  }
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+.close {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
