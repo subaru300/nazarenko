@@ -259,7 +259,7 @@ hr {
 }
 @media (max-width: 768px) {
   .wrapper {
-    width: 90%;
+    width: 100vw;
   }
   .container-with-photo,
   .services-second-block,
