@@ -258,6 +258,9 @@ hr {
   cursor: pointer;
 }
 @media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
   .container-with-photo,
   .services-second-block,
   .about-me,
