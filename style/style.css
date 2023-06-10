@@ -29,11 +29,13 @@ body {
 }
 h1 {
   color: var(--h1);
+  font-weight: 300;
 }
 h3,
 h4,
 h5 {
   color: var(--h3h4h5);
+  font-weight: 300;
 }
 p {
   color: var(--pdark);
