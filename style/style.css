@@ -111,13 +111,13 @@ p {
 .ser-sec-bl-two,
 .ser-sec-bl-three {
   flex: 1;
+  margin: 0 1rem 0 1rem;
 }
 
 .ser-sec-bl-one p,
 .ser-sec-bl-two p,
 .ser-sec-bl-three p {
   text-align: justify;
-  width: 90%;
 }
 
 .services-group-icons {
@@ -126,7 +126,6 @@ p {
 
 .about-me {
   display: flex;
-  margin: 5rem 2rem 0 2rem;
 }
 
 .about-photo-container {
@@ -143,6 +142,7 @@ p {
 .about-text {
   flex: 1;
   text-align: center;
+  margin: 0 3rem 0 3rem;
 }
 
 .text {
@@ -152,6 +152,7 @@ p {
 
 .about-numbers-container {
   display: flex;
+  text-align: center;
 }
 .numbers {
   flex: 1;
@@ -159,25 +160,25 @@ p {
 }
 
 hr {
-  width: 40px;
+  width: 100%;
   margin: 1rem 0 1rem 0;
   border: 1px solid #4d7f65;
 }
 
 .appeal-container {
   display: flex;
-  background: #4d7f65;
-
   margin-top: 3rem;
 }
 .appeal-photo {
   flex: 1;
 }
+
 .appeal-text-block {
   flex: 1;
+  background: #4d7f65;
 }
 .appeal-text-first {
-  margin: 2rem 3rem 1rem 3rem;
+  margin: 2rem 3rem 2rem 3rem;
   text-align: center;
 }
 .apperal-text-second {
@@ -259,6 +260,29 @@ hr {
   text-decoration: none;
   cursor: pointer;
 }
+.contacts {
+  display: flex;
+  background: #4d7f65;
+  color: var(--pligth);
+  margin-top: 3rem;
+}
+
+.social,
+.tel {
+  text-align: center;
+  flex: 1;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.social h3,
+.tel h3 {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.iconsn {
+  width: 40px;
+}
+
 @media screen and (max-width: 1200px) {
   .wrapper {
     width: 100vw;
@@ -294,7 +318,6 @@ hr {
   .ser-sec-bl-two,
   .ser-sec-bl-three {
     text-align: center;
-    width: 80%;
     margin-top: 2rem;
   }
   .about-me,
@@ -306,9 +329,11 @@ hr {
     text-align: center;
     margin-top: 3rem;
   }
-
-  hr {
-    margin-left: 35%;
-    width: 100px;
+  .contacts {
+    flex-direction: column;
+  }
+  .social,
+  .tel {
+    padding: 1rem 1rem 1rem 1rem;
   }
 }
